@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
-* exchange - function that changes positions
+* for_exchange - function that changes positions
 * @array: an array of numbers
 * @size1: an size = 0
 * @size2: an size = size - 1
@@ -40,7 +40,7 @@ size_t for_exchange(int *array, ssize_t size1, ssize_t size2, size_t size)
 }
 
 /**
-* sort - function that checks if size 1 is less than size 2
+* sorting - function that checks if size 1 is less than size 2
 * @array: an array of numbers
 * @size1: an size = 0
 * @size2: an size = size - 1
