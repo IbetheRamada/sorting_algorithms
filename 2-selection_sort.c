@@ -23,7 +23,6 @@ void selection_sort(int *array, size_t size)
 		{
 			if (array[a] < array[idx])
 				idx = a;
-			
 		}
 		if (i != idx)
 		{
